@@ -1,0 +1,44 @@
+/root/.rbenv/versions/2.2.4/bin/ruby -r ./siteconf20161214-11417-16ynvek.rb extconf.rb
+checking for ffi_call() in -lffi... yes
+checking for ffi_prep_closure()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... no
+creating extconf.h
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling Types.c
+compiling LastError.c
+compiling AbstractMemory.c
+compiling DataConverter.c
+compiling StructLayout.c
+compiling Thread.c
+compiling MemoryPointer.c
+compiling StructByReference.c
+compiling Call.c
+compiling LongDouble.c
+compiling Platform.c
+compiling ArrayType.c
+compiling FunctionInfo.c
+compiling Function.c
+compiling Variadic.c
+compiling ClosurePool.c
+compiling Pointer.c
+compiling ffi.c
+compiling DynamicLibrary.c
+compiling MappedType.c
+compiling Buffer.c
+compiling Type.c
+compiling StructByValue.c
+compiling Struct.c
+compiling MethodHandle.c
+linking shared-object ffi_c.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20161214-11417-5c570q
